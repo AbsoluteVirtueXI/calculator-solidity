@@ -1,0 +1,28 @@
+{
+  "name": "Calculator-solidity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "AbsoluteVirtueXI <absolutevirtuexi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx mocha --exit --recursive"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@openzeppelin/test-environment": "^0.1.6",
+    "@openzeppelin/test-helpers": "^0.5.9",
+    "chai": "^4.2.0",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^15.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-mocha-no-only": "^1.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.2",
+    "ganache-cli": "^6.12.1",
+    "mocha": "^8.2.0",
+    "prettier": "^2.1.2",
+    "prettier-plugin-solidity": "^1.0.0-alpha.59",
+    "solhint": "^3.3.1"
+  }
+}
