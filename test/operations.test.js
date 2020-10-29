@@ -27,6 +27,10 @@ describe('Suber', () => {
     expect(await this.suber.sub(100, 98)).to.be.bignumber.equal(new BN(2));
   });
 
+  it('substract equals numbers', async () => {
+    expect(await this.suber.sub(100, 100)).to.be.bignumber.equal(new BN(0));
+  });
+
   it('reverts when nb1 < nb2', async () => {
     await expectRevert(this.suber.sub(10, 22), 'Suber: no negative value here.');
   });
