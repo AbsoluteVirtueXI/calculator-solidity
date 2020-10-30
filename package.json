@@ -7,10 +7,13 @@
   "scripts": {
     "test": "npx mocha --exit --recursive"
   },
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
   "devDependencies": {
     "@openzeppelin/test-environment": "^0.1.6",
     "@openzeppelin/test-helpers": "^0.5.9",
+    "@truffle/hdwallet-provider": "^1.1.1",
     "chai": "^4.2.0",
     "eslint": "^7.12.1",
     "eslint-config-standard": "^15.0.0",
